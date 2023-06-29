@@ -65,6 +65,7 @@
     {% block content %}{% endblock %}
 
     <div id="powered-by">
+		<p style="text-align:center"><a href="https://www.patreon.com/BadAspen" target="_blank"><img alt="Patreon Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Patreon_logo.svg/800px-Patreon_logo.svg.png" style="height:50px; width:50px" /></a><a href="https://twitter.com/BadAspen" target="_blank"><img alt="Twitter Logo " src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" style="height:41px; width:50px" /></a></p>
         Cosmic Caliber is Powered by <a id="powered-by-link" href="https://ryanvilbrandt.github.io/comic_git">comic_git</a> v{{ version }} © BadAspen | LunarFarms 2022 - Present.
     </div>
 </div>
