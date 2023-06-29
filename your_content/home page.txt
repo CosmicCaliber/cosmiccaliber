@@ -1,4 +1,4 @@
-<h1>Welcome to comic_git!</h1>
+<h1>Welcome to Cosmic Caliber</h1>
 
 <p>Cosmic Caliber is currently under construction!</p>
 
