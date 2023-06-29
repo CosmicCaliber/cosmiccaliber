@@ -15,7 +15,7 @@
 
 <p style="text-align:center"><span style="font-size:14px"><em><strong>Cosmic Calibur is intended for a mature audience. Following suggestive themes and violence and gore.&nbsp;&nbsp;</strong></em></span></p>
 
-<p style="text-align:center"><span style="font-size:14px"><em><strong><img alt="" src="test" /><img alt="" src="\your_content\images\Cover.png" style="height:500px; width:500px" /></strong></em></span></p>
+<p style="text-align:center"><span style="font-size:14px"><em><strong><img alt="" src="test" /><img alt="" src="CosmicCaliber\your_content\images\Cover.png" style="height:1565px; width:1100px" /></strong></em></span></p>
 
 <p>Click <a href="comic/197/#comic-page">here</a> to go to the first page of the sample comic to see how it looks out-of-the-box.<br>
     You can also click <a href="latest/#comic-page">here</a> to go to the latest page, which will always point to the most recently published comic.</p>
