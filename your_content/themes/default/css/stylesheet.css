@@ -29,36 +29,28 @@ div#container {
 }
 
 div#banner {
-  background-color: transparent;
+    background-color: transparent;
+    padding: 10px;
 }
-
-div#banner-img-link {
-  display: block;
-}
-
-img#banner-img {
-  background-color: transparent;
-}
-
 
 div#links-bar {
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, #9654cd, #8a40c7);
-    border-radius: 10px; /* Add border radius to make the edges rounded */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a drop shadow effect */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 a.link-bar-link {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    padding: 10px;  /* Add padding to the links for spacing */
+    padding: 10px;
 }
 
 a.link-bar-link:hover {
-    color: black;  /* The color of the links in your links bar while the cursor is hovering over them */
+    color: black;
 }
 
 a.navigation-button {
