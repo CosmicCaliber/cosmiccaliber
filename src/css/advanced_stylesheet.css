@@ -16,7 +16,8 @@ div img {
 }
 
 div#banner {
-    margin-bottom: 15px;
+    background-color: transparent;
+    padding: 10px;
 }
 
 div#links-bar {
