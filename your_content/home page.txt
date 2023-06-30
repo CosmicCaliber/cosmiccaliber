@@ -1,4 +1,4 @@
-<div id="content">
+<div id="container">
 <h1>Welcome to Cosmic Caliber Homepage</h1>
 
 <p>Note Cosmic Caliber is currently under construction!</p>

@@ -22,23 +22,17 @@ a {
 }
 
 div#container {
-    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
     box-shadow: 5px 5px 10px lightgray;
-    background-image: url("../../../images/background_image.png");
 }
 
 div#banner {
     background-color: transparent;
     padding: 10px;
 }
-
-div#content {
-    background-color: rgba(255, 255, 255, 0.9); /* Adjust the last value (0.9) for the desired opacity */
-}
-}
-
+  
 div#links-bar {
     display: flex;
     justify-content: center;
