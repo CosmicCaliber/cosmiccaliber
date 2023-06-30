@@ -22,10 +22,11 @@ a {
 }
 
 div#container {
-    max-width: 1500px;
-    margin: 0 auto;
-    background-color: white;
-    box-shadow: 5px 5px 10px lightgray;
+    min-width: 1000px; /* Set the minimum width of the container to 1000 pixels */
+	max-width: 1500px; /* Set the maximum width of the container to 1500 pixels */
+	margin: 0 auto;
+	background-color: white;
+	box-shadow: 5px 5px 10px lightgray;
 }
 
 div#banner {
