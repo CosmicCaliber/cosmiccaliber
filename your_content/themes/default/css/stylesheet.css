@@ -27,7 +27,7 @@ div#container {
 	margin: 0 auto;
 	background-color: rgba(255, 255, 255, 0.8);
 	box-shadow: 5px 5px 10px lightgray;
-	border: 2px solid black; /* Add a semi-thin black border
+	border: 2px white; /* Add a semi-thin black border
 }
 
 div#banner {
