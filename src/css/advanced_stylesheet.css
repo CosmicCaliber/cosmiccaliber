@@ -6,6 +6,7 @@ body {
 
 div#container {
     display: inline-block;
+	background-color: white;
     text-align: center;
     margin: 15px;
     padding: 30px;
