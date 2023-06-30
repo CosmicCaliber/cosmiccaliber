@@ -30,12 +30,12 @@ div#container {
 
 
 div#links-bar {
-    display: flex;  /* Enable flexbox layout for the links bar */
-    justify-content: center;  /* Center the links horizontally */
-    align-items: center;  /* Center the links vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #8a40c7;
+    border-radius: 10px; /* Add border radius to make the edges rounded */
 }
-
 
 a.link-bar-link {
     color: white;
