@@ -22,10 +22,20 @@ a {
 }
 
 div#container {
-    width: 100%;  /* Make the container full-width */
-    margin: 0 auto;  /* Center the container horizontally */
+    width: 100%;
+    margin: 0 auto;
     background-color: white;
     box-shadow: 5px 5px 10px lightgray;
+    background-image: url("../../../images/background_image.png");
+}
+
+div#banner {
+    background-color: transparent;
+}
+
+div#content {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the last value (0.9) for the desired opacity */
+}
 }
 
 div#links-bar {
