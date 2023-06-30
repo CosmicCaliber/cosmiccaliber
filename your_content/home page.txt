@@ -2,15 +2,12 @@
 
 <p>Note Cosmic Caliber is currently under construction!</p>
 
-<p>This is a webcomic made by BadAspen. If you are seeing this text you are early<p>
-<p>Check out my socials to keep up to date!<p>
+<p>This is a webcomic made by BadAspen. If you are seeing this text you are early</p>
+<p>Check out my socials to keep up to date!</p>
 
 <hr />
-<p style="text-align:center"><span style="font-size:25px"><strong>Cosmic Caliber is a webcomic </strong></span><span style="font-size:25px"><strong>about a crew of magic-wielding space pirates </strong></span></p>
-
-<p style="text-align:center"><span style="font-size:25px"><strong>that fight an authoritarian galactic corporation</strong></span></p>
-
-<p style="text-align:center">&nbsp;</p>
+<hl>Cosmic Caliber is a webcomic about a crew of magic-wielding space pirates</hl>
+<hl>that fight an authoritarian galactic corporation</hl>
 
 <p style="text-align:center"><span style="font-size:25px">Follow Kade and his crew as they explore planets and discover new powers.</span></p>
 
