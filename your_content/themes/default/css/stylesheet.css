@@ -33,7 +33,7 @@ div#links-bar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #8a40c7;
+    background: linear-gradient(to bottom, #8a40c7, #ff8b00, #00a8e8);
     border-radius: 10px; /* Add border radius to make the edges rounded */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a drop shadow effect */
 }
