@@ -28,11 +28,6 @@ div#container {
     box-shadow: 5px 5px 10px lightgray;
 }
 
-div#banner {
-    background-color: transparent;
-    padding: 10px;
-}
-
 div#links-bar {
     display: flex;
     justify-content: center;
