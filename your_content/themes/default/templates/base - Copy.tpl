@@ -44,12 +44,11 @@
 {# This is the start of the `body` block. This is where all the visible parts of the website show up. #}
 {% block body %}
 <div id="container">
-    <div id="banner" class="banner-container">
-    <a id="banner-img-link" href="{{ base_dir }}/">
-        <img id="banner-img" alt="banner" src="{{ banner_image }}">
-    </a>
-</div>
-
+    <div id="banner">
+        <a id="banner-img-link" href="{{ base_dir }}/">
+            <img id="banner-img" alt="banner" src="{{ banner_image }}">
+        </a>
+    </div>
     <div id="links-bar">
     {# For loops let you take a list of a values and do something for each of those values. In this case,
        it runs through list of all the links provided by the [Links Bar] section of your comic_info.ini file,
