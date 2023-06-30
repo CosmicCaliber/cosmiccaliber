@@ -28,9 +28,18 @@ div#container {
     box-shadow: 5px 5px 10px lightgray;
 }
 
-banner-container {
+div#banner {
   background-color: transparent;
 }
+
+div#banner-img-link {
+  display: block;
+}
+
+img#banner-img {
+  background-color: transparent;
+}
+
 
 div#links-bar {
     display: flex;
