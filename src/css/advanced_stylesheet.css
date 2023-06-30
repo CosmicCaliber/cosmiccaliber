@@ -16,11 +16,6 @@ div img {
     max-width: 100%;
 }
 
-div#banner {
-    background-color: transparent;
-    padding: 10px;
-}
-
 div#links-bar {
     margin-bottom: 15px;
     padding: 5px;
