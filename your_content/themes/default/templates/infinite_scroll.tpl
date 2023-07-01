@@ -4,7 +4,8 @@
 {# This is the start of the `content` block. It's part of the <body> of the page. This is where all the visible
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {% block content %}
-    <div id="jump-to">
+	<div id="container">
+		<div id="jump-to">
         {%- if storylines.keys() | list != ["Uncategorized"] %}
         <h2>Jump to...</h2>
         {%- endif %}
