@@ -78,6 +78,11 @@ a.navigation-button-disabled {
 
 .mobile-nav-menu {
   display: none; /* Hide the menu by default */
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #9654cd, #8a40c7);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .mobile-nav-toggle {
@@ -109,7 +114,7 @@ a.navigation-button-disabled {
 }
 
 /* Default styles for mobile navigation */
-#mobile-nav {
+div#mobile-nav {
   display: block;
 }
 
