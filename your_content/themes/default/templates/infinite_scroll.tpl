@@ -4,6 +4,7 @@
 {# This is the start of the `content` block. It's part of the <body> of the page. This is where all the visible
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {% block content %}
+<div id="container">
 	<div id="jump-to">
         {%- if storylines.keys() | list != ["Uncategorized"] %}
         <h2>Jump to...</h2>
@@ -35,10 +36,12 @@
     <div id="caught-up-notification" hidden>
         <h2>You're all caught up!</h2>
     </div>
+
 {% endblock %}
 {% block script %}
 <script type="module">
     import { load_page } from "{{ base_dir }}/src/js/infinite_scroll.js";
     load_page("{{ comic_base_dir }}", "{{ content_base_dir }}");
 </script>
+</div>
 {% endblock %}
