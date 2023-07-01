@@ -115,7 +115,12 @@ a.navigation-button-disabled {
 
 /* Default styles for mobile navigation */
 div#mobile-nav {
-  display: block;
+ display: block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #9654cd, #8a40c7);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Media query for screens above 768px */
