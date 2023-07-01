@@ -49,24 +49,19 @@
         <img id="banner-img" alt="banner" src="{{ banner_image }}">
     </a>
 	</div>
-	
+
 	<div id="mobile-nav">
-		<input type="checkbox" id="toggle">
-		<label for="toggle" class="toggle-btn">
-			<span></span>
-			<span></span>
-			<span></span>
-		</label>
-		<ul class="menu">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
+	  <input type="checkbox" id="mobile-nav-toggle">
+	  <label for="mobile-nav-toggle">&#9776;</label>
+	  <div id="mobile-nav-menu">
+		<!-- Add your mobile navigation elements here -->
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+	  </div>
 	</div>
 
-
-    <div id="links-bar">
+    <div id="links-bar" class="desktop-nav">
         {# For loops let you take a list of a values and do something for each of those values. In this case,
         it runs through the list of all the links provided by the [Links Bar] section of your comic_info.ini file,
         and it generates a link for each of them. #}
