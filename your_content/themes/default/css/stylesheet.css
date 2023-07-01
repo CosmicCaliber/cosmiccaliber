@@ -44,7 +44,7 @@ div#banner {
 	align-items: center; /* Vertically center the content */
 }
   
-div#links-bar {
+div##links-bar.desktop-nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,11 +76,11 @@ a.navigation-button-disabled {
     text-decoration: none;  /* Delete this if you want your disabled navigation links to be underlined */
 }
 
-#mobile-nav {
+.mobile-nav-menu {
   display: none; /* Hide the menu by default */
 }
 
-#toggle {
+.mobile-nav-toggle {
   display: none; /* Hide the checkbox input */
 }
 
@@ -113,18 +113,13 @@ a.navigation-button-disabled {
   display: block;
 }
 
-/* Styles for desktop navigation */
-#links-bar.desktop-nav {
-  display: none;
-}
-
 /* Media query for screens above 768px */
 @media screen and (min-width: 768px) {
   #mobile-nav {
     display: none;
   }
   
-  #links-bar {
+  ##links-bar.desktop-nav {
     display: block;
   }
 }
