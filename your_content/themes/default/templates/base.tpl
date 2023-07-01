@@ -53,12 +53,11 @@
 	<div id="mobile-nav">
 	  <input type="checkbox" id="mobile-nav-toggle">
 	  <label for="mobile-nav-toggle">&#9776;</label>
-	  <div id="mobile-nav-menu">
-		<!-- Add your mobile navigation elements here -->
-		<a href="#">Link 1</a>
-		<a href="#">Link 2</a>
-		<a href="#">Link 3</a>
-	  </div>
+		<div id="mobile-nav-menu">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		</div>
 	</div>
 
     <div id="links-bar" class="desktop-nav">
