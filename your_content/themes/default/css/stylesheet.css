@@ -76,6 +76,63 @@ a.navigation-button-disabled {
     text-decoration: none;  /* Delete this if you want your disabled navigation links to be underlined */
 }
 
+#mobile-nav {
+  display: none; /* Hide the menu by default */
+}
+
+#toggle {
+  display: none; /* Hide the checkbox input */
+}
+
+.toggle-btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
+
+.toggle-btn span {
+  background-color: black;
+  display: block;
+  height: 3px;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: none; /* Hide the menu items by default */
+}
+
+/* Default styles for mobile navigation */
+#mobile-nav {
+  display: block;
+}
+
+/* Styles for desktop navigation */
+#desktop-nav {
+  display: none;
+}
+
+/* Media query for screens above 768px */
+@media screen and (min-width: 768px) {
+  #mobile-nav {
+    display: none;
+  }
+  
+  #links-bar {
+    display: block;
+  }
+}
+
+#toggle:checked ~ .menu li {
+  display: block; /* Show the menu items when the checkbox is checked */
+}
+
 div#blurb {
     background-color: lightgray;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
     width: 75%;  /* The maximum width of the blurb box. */

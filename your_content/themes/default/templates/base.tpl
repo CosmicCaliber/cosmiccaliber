@@ -49,6 +49,22 @@
         <img id="banner-img" alt="banner" src="{{ banner_image }}">
     </a>
 	</div>
+	
+	<div id="mobile-nav">
+		<input type="checkbox" id="toggle">
+		<label for="toggle" class="toggle-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+		<ul class="menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+
 
     <div id="links-bar">
         {# For loops let you take a list of a values and do something for each of those values. In this case,
