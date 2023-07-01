@@ -76,13 +76,18 @@ a.navigation-button-disabled {
     text-decoration: none;  /* Delete this if you want your disabled navigation links to be underlined */
 }
 
-.mobile-nav-menu {
-  display: none; /* Hide the menu by default */
+/* Default styles for mobile navigation */
+#mobile-nav {
+  display: block;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #9654cd, #8a40c7);
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-nav-menu {
+  display: none; /* Hide the menu by default */
 }
 
 .mobile-nav-toggle {
@@ -113,26 +118,21 @@ a.navigation-button-disabled {
   display: none; /* Hide the menu items by default */
 }
 
-/* Default styles for mobile navigation */
-div#mobile-nav {
- display: block;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, #9654cd, #8a40c7);
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
 /* Media query for screens above 768px */
 @media screen and (min-width: 768px) {
   #mobile-nav {
     display: none;
   }
-  
-  ##links-bar.desktop-nav {
+
+  #links-bar.desktop-nav {
     display: block;
   }
+  
+  #toggle:checked ~ .menu li {
+    display: block; /* Show the menu items when the checkbox is checked */
+  }
 }
+
 
 #toggle:checked ~ .menu li {
   display: block; /* Show the menu items when the checkbox is checked */
