@@ -50,24 +50,6 @@
     </a>
 	</div>
 
-		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- Top Navigation Menu -->
-	<div class="topnav">
-	  <a href="#home" class="active">Logo</a>
-	  <!-- Navigation links (hidden by default) -->
-	  <div id="myLinks">
-		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
-		<a href="#about">About</a>
-	  </div>
-	  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-	  <script src="../js/button.js" class="icon" onclick="ButtonClick"><script>
-		<i class="fa fa-bars"></i>
-	  </a>
-	</div>
-
     <div id="links-bar" class="desktop-nav">
         {# For loops let you take a list of a values and do something for each of those values. In this case,
         it runs through the list of all the links provided by the [Links Bar] section of your comic_info.ini file,
