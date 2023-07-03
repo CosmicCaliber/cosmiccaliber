@@ -22,7 +22,7 @@ a {
 }
 
 div#container {
-    min-width: 1000px; /* Set the minimum width of the container to 1000 pixels */
+    min-width: 600px; /* Set the minimum width of the container to 1000 pixels */
 	max-width: 1500px; /* Set the maximum width of the container to 1500 pixels */
 	margin: 0 auto;
 	background-color: rgba(255, 255, 255, 0.8);
@@ -77,7 +77,7 @@ a.navigation-button-disabled {
 }
 
 /* Default styles for mobile navigation */
-div#mobile-nav {
+#mobile-nav {
   display: block;
   justify-content: center;
   align-items: center;
@@ -86,21 +86,21 @@ div#mobile-nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.mobile-nav-menu {
+#mobile-nav-menu {
   display: none; /* Hide the menu by default */
 }
 
-.mobile-nav-toggle {
+#mobile-nav-toggle {
   display: none; /* Hide the checkbox input */
 }
 
-.toggle-btn {
+#mobile-nav-toggle-label {
   cursor: pointer;
   display: inline-block;
   padding: 10px;
 }
 
-.toggle-btn span {
+#mobile-nav-toggle-label span {
   background-color: black;
   display: block;
   height: 3px;
@@ -108,23 +108,24 @@ div#mobile-nav {
   transition: background-color 0.3s ease-in-out;
 }
 
-.menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+#mobile-nav-menu .link-bar-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
 }
 
-.menu li {
-  display: none; /* Hide the menu items by default */
+#mobile-nav-menu .link-bar-link:hover {
+  color: black;
 }
 
 /* Media query for screens above 768px */
 @media screen and (min-width: 768px) {
-  div#mobile-nav {
+  #mobile-nav {
     display: none;
   }
 
-  div#links-bar.desktop-nav {
+  #links-bar.desktop-nav {
     display: block;
   }
   
