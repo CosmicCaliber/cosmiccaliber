@@ -43,6 +43,7 @@ div#container {
     padding: 10px; /* Adjust the padding as desired */
   }
 
+
 div#banner {
     background-color: transparent;
     padding: 10px;
@@ -51,7 +52,7 @@ div#banner {
 	align-items: center; /* Vertically center the content */
 }
   
-div#links-bar {
+div#links-bar.desktop-nav {
     display: flex;
     justify-content: center;
     align-items: center;
