@@ -51,9 +51,9 @@
 	</div>
 
 	<div id="mobile-nav">
-	<input type="checkbox" id="mobile-nav-toggle">
-	<label for="mobile-nav-toggle">&#9776;
-	</label>
+		<input type="checkbox" id="mobile-nav-toggle">
+		<label for="mobile-nav-toggle">&#9776;
+		</label>
 			<div id="mobile-nav-menu">
 				{# For loops let you take a list of a values and do something for each of those values. In this case,
 				it runs through the list of all the links provided by the [Links Bar] section of your comic_info.ini file,
