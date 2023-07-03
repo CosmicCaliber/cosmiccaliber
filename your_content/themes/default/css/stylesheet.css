@@ -129,14 +129,10 @@ a.navigation-button-disabled {
   }
   
   #toggle:checked ~ .menu li {
-    display: none; /* Show the menu items when the checkbox is checked */
+    display: block; /* Show the menu items when the checkbox is checked */
   }
 }
 
-
-#toggle:checked ~ .menu li {
-  display: block; /* Show the menu items when the checkbox is checked */
-}
 
 div#blurb {
     background-color: lightgray;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
