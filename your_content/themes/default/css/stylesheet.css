@@ -77,7 +77,7 @@ a.navigation-button-disabled {
 }
 
 /* Default styles for mobile navigation */
-#mobile-nav {
+div#mobile-nav {
   display: block;
   justify-content: center;
   align-items: center;
@@ -120,11 +120,11 @@ a.navigation-button-disabled {
 
 /* Media query for screens above 768px */
 @media screen and (min-width: 768px) {
-  #mobile-nav {
+  div#mobile-nav {
     display: none;
   }
 
-  #links-bar.desktop-nav {
+  div#links-bar.desktop-nav {
     display: block;
   }
   
