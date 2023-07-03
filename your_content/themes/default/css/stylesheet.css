@@ -91,7 +91,7 @@ div#links-bar.mobile-nav {
 }
 
 #mobile-nav-toggle {
-  display: none; /* Hide the checkbox input */
+  display: block; /* Hide the checkbox input */
 }
 
 #mobile-nav-toggle-label {
