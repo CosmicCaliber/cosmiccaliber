@@ -87,11 +87,11 @@ div#links-bar.mobile-nav {
 }
 
 #mobile-nav-menu {
-  display: none; /* Hide the menu by default */
+  display: block; /* Hide the menu by default */
 }
 
 #mobile-nav-toggle {
-  display: block; /* Hide the checkbox input */
+  display: none; /* Hide the checkbox input */
 }
 
 #mobile-nav-toggle-label {
