@@ -129,7 +129,7 @@ a.navigation-button-disabled {
   }
   
   #toggle:checked ~ .menu li {
-    display: block; /* Show the menu items when the checkbox is checked */
+    display: none; /* Show the menu items when the checkbox is checked */
   }
 }
 
