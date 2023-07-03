@@ -50,7 +50,7 @@
     </a>
 	</div>
 
-	<div id="mobile-nav">
+	<div id="links-bar" class="mobile-nav">
 		<input type="checkbox" id="mobile-nav-toggle">
 		<label for="mobile-nav-toggle">&#9776;
 		</label>
