@@ -87,7 +87,7 @@ div#links-bar.mobile-nav {
 }
 
 #mobile-nav-menu {
-  display: block; /* Hide the menu by default */
+  display: list; /* Hide the menu by default */
 }
 
 #mobile-nav-toggle {
