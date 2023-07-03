@@ -52,7 +52,7 @@
 
 	<div id="links-bar" class="mobile-nav">
 		<input type="checkbox" id="mobile-nav-toggle">
-			<label for="mobile-nav-toggle">&#9776;
+			<label for="mobile-nav-toggle">MENU;
 			</label>
 			<div id="mobile-nav-menu">
 				{# For loops let you take a list of a values and do something for each of those values. In this case,
