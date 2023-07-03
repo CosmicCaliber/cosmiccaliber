@@ -50,19 +50,22 @@
     </a>
 	</div>
 
-	<div id="mobile-nav">
-	  <input type="checkbox" id="mobile-nav-toggle">
-	  <label for="mobile-nav-toggle">&#9776;
-	  </label>
-	  <div id="mobile-nav-menu">
-			{# For loops let you take a list of a values and do something for each of those values. In this case,
-			it runs through the list of all the links provided by the [Links Bar] section of your comic_info.ini file,
-			and it generates a link for each of them. #}
-			{%- for link in links %}
-			<a class="link-bar-link" href="{{ link.url }}">{{ link.name }}</a>
-			{% if not loop.last %}<span class="link-bar-separator">|</span>{% endif %}
-			{%- endfor %}
-		</div>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+	<div class="topnav">
+	<a href="#home" class="active">Logo</a>
+	<!-- Navigation links (hidden by default) -->
+	<div id="myLinks">
+		<a href="#news">News</a>
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+	</div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	</a>
 	</div>
 
     <div id="links-bar" class="desktop-nav">
