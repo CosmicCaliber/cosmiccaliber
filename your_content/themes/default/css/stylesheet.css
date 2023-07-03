@@ -108,14 +108,14 @@ a.navigation-button-disabled {
   transition: background-color 0.3s ease-in-out;
 }
 
-#mobile-nav-menu .link-bar-link {
+#mobile-nav-menu.link-bar-link {
   color: white;
   font-weight: bold;
   text-decoration: none;
   padding: 10px;
 }
 
-#mobile-nav-menu .link-bar-link:hover {
+#mobile-nav-menu.link-bar-link:hover {
   color: black;
 }
 
