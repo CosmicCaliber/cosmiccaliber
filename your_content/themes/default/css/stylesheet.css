@@ -44,7 +44,7 @@ div#banner {
 	align-items: center; /* Vertically center the content */
 }
   
-div##links-bar.desktop-nav {
+div#links-bar.desktop-nav {
     display: flex;
     justify-content: center;
     align-items: center;
