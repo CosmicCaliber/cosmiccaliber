@@ -63,7 +63,7 @@
 		<a href="#about">About</a>
 	  </div>
 	  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-	  <a href="javascript:button;" class="icon" onclick="myFunction()">
+	  <a href="javascript:button.js;" class="icon" onclick="myFunction()">
 		<i class="fa fa-bars"></i>
 	  </a>
 	</div>
