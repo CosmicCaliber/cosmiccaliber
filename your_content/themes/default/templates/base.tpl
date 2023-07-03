@@ -50,7 +50,7 @@
     </a>
 	</div>
 
-    <div id="links-bar" class="desktop-nav">
+    <div id="links-bar">
         {# For loops let you take a list of a values and do something for each of those values. In this case,
         it runs through the list of all the links provided by the [Links Bar] section of your comic_info.ini file,
         and it generates a link for each of them. #}
