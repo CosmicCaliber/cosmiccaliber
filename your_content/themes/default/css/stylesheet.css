@@ -76,51 +76,47 @@ a.navigation-button-disabled {
     text-decoration: none;  /* Delete this if you want your disabled navigation links to be underlined */
 }
 
-/* Default styles for mobile navigation */
-div#links-bar.mobile-nav {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to bottom, #9654cd, #8a40c7);
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
 
-#mobile-nav-menu {
-  display: none; /* Hide the menu by default */
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
 
-#mobile-nav-toggle {
-  display: none; /* Hide the checkbox input */
-}
-
-#mobile-nav-toggle-label {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px;
-}
-
-#mobile-nav-toggle-label span {
-  background-color: black;
-  display: block;
-  height: 3px;
-  margin-bottom: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#mobile-nav-menu.a.link-bar-link {
+/* Style navigation menu links */
+.topnav a {
   color: white;
-  font-weight: bold;
+  padding: 14px 16px;
   text-decoration: none;
-  padding: 10px;
+  font-size: 17px;
+  display: block;
 }
 
-#mobile-nav-menu.a.link-bar-link:hover {
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
   color: black;
 }
 
-/* Media query for screens above 768px */
-@media screen and (min-width: 768px) {
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
   #links-bar.mobile-nav {
     display: none;
   }
@@ -132,8 +128,6 @@ div#links-bar.mobile-nav {
   #toggle:checked ~ .menu li {
     display: block; /* Show the menu items when the checkbox is checked */
   }
-}
-
 
 div#blurb {
     background-color: lightgray;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
