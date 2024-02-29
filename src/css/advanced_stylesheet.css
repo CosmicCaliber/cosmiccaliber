@@ -23,6 +23,21 @@ div#links-bar {
     justify-content: center;
 }
 
+div#links-bar {
+    margin-bottom: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+    div#links-bar {
+        /* Adjust the size as needed */
+        padding: 10px; /* Example padding for mobile */
+    }
+}
+
 a.link-bar-link {
     transition-duration: 0.2s;
 }
