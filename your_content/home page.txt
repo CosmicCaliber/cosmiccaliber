@@ -1,5 +1,7 @@
+<head>
 <div id="container">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <h1 style="text-align:center"><span style="font-size:30px">Welcome to Cosmic Caliber Homepage</h1>
 
 <p style="text-align:center"><span style="font-size:27px">Note Cosmic Caliber is currently under construction!</p>
