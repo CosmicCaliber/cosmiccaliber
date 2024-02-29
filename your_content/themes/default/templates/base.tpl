@@ -39,9 +39,6 @@
     <meta property="og:image:height" content="100px" />
     <title>{{ page_title }} - {{ comic_title }}</title>
     {%- endblock %}
-<head>
-<div id="container">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 {# This is the start of the `body` block. This is where all the visible parts of the website show up. #}
