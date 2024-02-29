@@ -22,7 +22,7 @@ a {
 }
 
 div#container {
-    min-width: 600px; /* Set the minimum width of the container to 1000 pixels */
+    min-width: 300px; /* Set the minimum width of the container to 1000 pixels */
 	max-width: 1500px; /* Set the maximum width of the container to 1500 pixels */
 	margin: 0 auto;
 	background-color: rgba(255, 255, 255, 0.8);

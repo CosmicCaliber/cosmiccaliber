@@ -4,8 +4,6 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
     {# If blocks let you check the value of a variable and then generate different HTML depending on that variable.
        The if block below will check if the `google_analytics_id` variable is defined (set in the Python script by
        the "Tracking ID" value of the "Google Analytics" section in the comic_info.ini file). If so, it then
@@ -42,7 +40,6 @@
     <title>{{ page_title }} - {{ comic_title }}</title>
     {%- endblock %}
 </head>
-
 <body>
 {# This is the start of the `body` block. This is where all the visible parts of the website show up. #}
 {% block body %}
