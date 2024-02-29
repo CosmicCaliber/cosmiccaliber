@@ -11,7 +11,7 @@
 <p style="text-align:center"><span style="font-size:27px">Check out my socials to keep up to date!!</p>
 
 <p style="text-align:center"><span style="font-size:23x"><em><strong>Cosmic Caliber is intended for a mature audience. Following suggestive themes and violence and gore.&nbsp;&nbsp;</strong></em></span></p>
-<p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:100%;" /></strong></em></span></p>
+<p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:75%;" /></strong></em></span></p>
 
 <hr />
 <p style="text-align:center"><span style="font-size:27px">Cosmic Caliber is a webcomic about a crew of magic-wielding space pirates</span></p>
