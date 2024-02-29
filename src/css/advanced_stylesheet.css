@@ -23,13 +23,6 @@ div#links-bar {
     justify-content: center;
 }
 
-div#links-bar {
-    margin-bottom: 15px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-}
-
 a.link-bar-link {
     transition-duration: 0.2s;
 }
