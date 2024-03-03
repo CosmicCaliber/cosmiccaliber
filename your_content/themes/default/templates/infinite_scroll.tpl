@@ -5,6 +5,30 @@
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {% block content %}
 
+<div>
+	</head>
+	<body>
+		<button class="scroll-up-btn">
+			<i class="arrow-up"></i>
+		</button>
+	</body> 	
+</script>
+
+	<script>
+		const btn = document.querySelector(".
+		scroll-up-btn");
+
+		btn.addEventListener("click", () => {
+			document.documentElement.scrollTo({
+			top: 0,
+			behavior: "smooth",
+		});
+		
+		});
+	</script>
+</div>
+
+
 <div id="container">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,27 +70,6 @@
 <script type="module">
     import { load_page } from "{{ base_dir }}/src/js/infinite_scroll.js";
     load_page("{{ comic_base_dir }}", "{{ content_base_dir }}");
-
-	</head>
-	<body>
-		<button class="scroll-up-btn">
-			<i class="arrow-up"></i>
-		</button>
-	</body> 	
-</script>
-
-	<script>
-		const btn = document.querySelector(".
-		scroll-up-btn");
-
-		btn.addEventListener("click", () => {
-			document.documentElement.scrollTo({
-			top: 0,
-			behavior: "smooth",
-		});
-		
-		});
-	</script>
 
 </div>
 {% endblock %}
