@@ -12,7 +12,7 @@
 
 <p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:60%;" /></strong></em></span></p>
 
-<p><a href="comic/197/#comic-page">FIRST PAGE</a><br>
+<p><a href="comic/1/#comic-page">FIRST PAGE</a><br>
     <a href="latest/#comic-page">LATEST PAGE</a></p>
 
 <hr />
