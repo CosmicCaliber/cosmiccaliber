@@ -20,10 +20,9 @@
 
 		btn.addEventListener("click", () => {
 			document.documentElement.scrollTo({
-			top: 0,
-			behavior: "smooth",
-		});
-		
+				top: 0,
+				behavior: "smooth",
+			});
 		});
 	</script>
 </div>
