@@ -5,8 +5,9 @@
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {% block content %}
 	<div id="container">
+	
 		<h1 id="page-title">Archive</h1>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.5">
     {%- if storylines -%}
         <div id="blurb">
         {# If blocks let you check the value of a variable and then generate different HTML depending on that variable.
