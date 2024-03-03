@@ -1,4 +1,4 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 {# This template extends the base.tpl template, meaning that base.tpl provides a large framework
    that this template then adds to. See base.tpl for more information. #}
 {% extends "base.tpl" %}
@@ -13,6 +13,7 @@
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
    <meta name="viewport" content="width=device-width, initial-scale=1">
 {%- block content %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
     {# When text is surrounded by {{ these double curly braces }}, it's representing a variable that's passed in by
        the Python script that generates the HTML file. That value is dropped into the existing HTML with no changes.
        For example, if the value passed in to `comic_base_dir` is `comic_git`, then `{{ comic_base_dir }}/comic` 
