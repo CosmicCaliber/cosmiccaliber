@@ -7,7 +7,7 @@
 
 <p style="text-align:center"><span style="font-size:27px">Note Cosmic Caliber is currently under construction!</p>
 
-<p style="text-align:center"><span style="font-size:27px">This is a webcomic made by BadAspen. If you are seeing this text you are early</p>
+<p style="text-align:center"><span style="font-size:27px">This webcomic is made by BadAspen. If you are seeing this text you are early</p>
 <p style="text-align:center"><span style="font-size:27px">Check out my socials to keep up to date!!</p>
 
 <p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:60%;" /></strong></em></span></p>
