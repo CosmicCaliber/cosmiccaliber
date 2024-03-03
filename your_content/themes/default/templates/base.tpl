@@ -43,7 +43,7 @@
 <body>
 {# This is the start of the `body` block. This is where all the visible parts of the website show up. #}
 {% block body %}
-
+<meta name="viewport" content="width=device-width, initial-scale=1.5">
 	<div id="banner" class="banner-container">
 		<a id="banner-img-link" href="{{ base_dir }}/">
         <img id="banner-img" alt="banner" src="{{ banner_image }}">
