@@ -5,19 +5,19 @@
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {% block content %}
 
-<div>
-	</head>
-	<body>
-		<button class="scroll-up-btn">
-			<i class="arrow-up"></i>
-		</button>
-	</body> 	
-</div>
+	<div>
+		</head>
+		<body>
+			<button class="scroll-up-btn">
+				<i class="arrow-up"></i>
+			</button>
+		</body> 	
+	</div>
 
 
 <div id="container">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script>
 		const btn = document.querySelector(".
@@ -72,5 +72,5 @@
 </script>
 
 
-</div>
+
 {% endblock %}
