@@ -12,6 +12,12 @@
 			<i class="arrow-up"></i>
 		</button>
 	</body> 	
+</div>
+
+
+<div id="container">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script>
 		const btn = document.querySelector(".
@@ -24,12 +30,7 @@
 			});
 		});
 	</script>
-</div>
 
-
-<div id="container">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<div id="jump-to">
         {%- if storylines.keys() | list != ["Uncategorized"] %}
@@ -69,5 +70,7 @@
     import { load_page } from "{{ base_dir }}/src/js/infinite_scroll.js";
     load_page("{{ comic_base_dir }}", "{{ content_base_dir }}");
 </script>
+
+
 </div>
 {% endblock %}
