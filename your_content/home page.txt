@@ -21,14 +21,14 @@
   img {
     display: block;
     margin: 0 auto; /* Center the image */
-    max-width: 100%; /* Maximum width of the image */
+    max-width: 50%; /* Maximum width of the image */
     height: auto; /* Maintain aspect ratio */
   }
 
   /* Media query for smaller screens */
   @media screen and (max-width: 768px) {
     img {
-      width: 80%; /* Adjust the width for smaller screens */
+      width: 90%; /* Adjust the width for smaller screens */
     }
   }
 </style>
