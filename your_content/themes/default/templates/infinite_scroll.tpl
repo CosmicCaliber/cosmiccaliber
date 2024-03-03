@@ -6,6 +6,7 @@
 {% block content %}
 <div id="container">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<div id="jump-to">
         {%- if storylines.keys() | list != ["Uncategorized"] %}
         <h2>Jump to...</h2>
@@ -44,5 +45,7 @@
     import { load_page } from "{{ base_dir }}/src/js/infinite_scroll.js";
     load_page("{{ comic_base_dir }}", "{{ content_base_dir }}");
 </script>
+
+<button id="myBtn"><a href="#top" style="color: white">Top</a></button>
 </div>
 {% endblock %}
