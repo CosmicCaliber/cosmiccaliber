@@ -12,8 +12,7 @@
 
 <p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:60%;" /></strong></em></span></p>
 
-<p><a href="comic/1/#comic-page">FIRST PAGE</a><br>
-    <a href="latest/#comic-page">LATEST PAGE</a></p>
+<p><a href="comic/1/#comic-page">FIRST PAGE</a><br> <a href="latest/#comic-page">LATEST PAGE</a></p>
 
 <hr />
 <p style="text-align:center"><span style="font-size:27px">Cosmic Caliber is a webcomic about a crew of magic-wielding space pirates</span></p>
