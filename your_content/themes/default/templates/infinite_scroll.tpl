@@ -9,12 +9,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body
-	<button class="scroll-up-btn">
-			<i class="arrow-up"></i>
-			</button>
-		</body>
-	
 	<div id="jump-to">
         {%- if storylines.keys() | list != ["Uncategorized"] %}
         <h2>Jump to...</h2>
@@ -52,6 +46,13 @@
 <script type="module">
     import { load_page } from "{{ base_dir }}/src/js/infinite_scroll.js";
     load_page("{{ comic_base_dir }}", "{{ content_base_dir }}");
+
+	</head>
+	<body>
+		<button class="scroll-up-btn">
+			<i class="arrow-up"></i>
+		</button>
+	</body> 	
 </script>
 
 	<script>
