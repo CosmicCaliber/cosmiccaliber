@@ -279,7 +279,7 @@ div#storyline, div#characters, div#tags {
 
 /*Floating Back-To-Top Button*/
     #myBtn {
-        position: fixed;
+        position: sticky;
         bottom: 10px;
         float: right;
         right: 18.5%;
