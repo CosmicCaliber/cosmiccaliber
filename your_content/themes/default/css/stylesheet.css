@@ -104,8 +104,8 @@ div#storyline, div#characters, div#tags {
 	right: 30px;
 	height: 90px;
 	width: 90px;
-	background-color: purple;     
-	border-radius: 99%;
+	background-color: #9932CC; /* DarkOrchid color */     
+	border-radius: 50%; /* Using 50% for circle */
 	display: flex;
 	align-items: center;
 	justify-content: center;
