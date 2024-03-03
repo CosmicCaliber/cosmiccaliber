@@ -12,7 +12,6 @@
 			<i class="arrow-up"></i>
 		</button>
 	</body> 	
-</script>
 
 	<script>
 		const btn = document.querySelector(".
