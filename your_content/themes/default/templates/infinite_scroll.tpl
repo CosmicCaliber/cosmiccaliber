@@ -20,9 +20,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script>
-		const btn = document.querySelector(".
-		scroll-up-btn");
-
+		const btn = document.querySelector(".scroll-up-btn");
 		btn.addEventListener("click", () => {
 			document.documentElement.scrollTo({
 				top: 0,
@@ -66,10 +64,10 @@
 
 {% endblock %}
 {% block script %}
-<script type="module">
-    import { load_page } from "{{ base_dir }}/src/js/infinite_scroll.js";
-    load_page("{{ comic_base_dir }}", "{{ content_base_dir }}");
-</script>
+	<script type="module">
+		import { load_page } from "{{ base_dir }}/src/js/infinite_scroll.js";
+		load_page("{{ comic_base_dir }}", "{{ content_base_dir }}");
+	</script>
 
 
 
