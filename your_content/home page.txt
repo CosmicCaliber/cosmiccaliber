@@ -7,7 +7,7 @@
 
 <h3 class="rainbow"><span style="font-size:35px">Welcome To Cosmic Caliber</h3>
 
-<div>
+</div>
 
 <p style="text-align:center"><span style="font-size:27px">Note Cosmic Caliber is currently under construction!</p>
 
@@ -43,7 +43,7 @@
 
 <p><span style="font-size:20px"><em>Corvid_Conquest</em></span></p>
 
-<div>
+</div>
 
 
 
