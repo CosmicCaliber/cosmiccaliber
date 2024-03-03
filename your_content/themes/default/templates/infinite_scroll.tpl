@@ -36,7 +36,7 @@
     <div id="caught-up-notification" hidden>
         <h2>You're all caught up!</h2>
     </div>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 {% endblock %}
 {% block script %}
 <script type="module">
