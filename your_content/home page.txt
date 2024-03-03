@@ -10,38 +10,7 @@
 <p style="text-align:center"><span style="font-size:27px">This is a webcomic made by BadAspen. If you are seeing this text you are early</p>
 <p style="text-align:center"><span style="font-size:27px">Check out my socials to keep up to date!!</p>
 
-<p style="text-align:center"><span style="font-size:23x"><em><strong>Cosmic Caliber is intended for a mature audience. Following suggestive themes and violence and gore.&nbsp;&nbsp;</strong></em></span></p>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Responsive Image</title>
-<style>
-  /* Default styling */
-  img {
-    display: block;
-    margin: 0 auto; /* Center the image */
-    max-width: 50%; /* Maximum width of the image */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    img {
-      width: 50%; /* Adjust the width for smaller screens */
-    }
-  }
-</style>
-</head>
-<body>
-
-<p style="text-align:center">
-  <span style="font-size:23px"><em><strong>
-    <img alt="" src="your_content/images/Cover.png" />
-  </strong></em></span>
-</p>
-
-</body>
-</html>
+<p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:60%;" /></strong></em></span></p>
 
 <p><a href="comic/197/#comic-page">FIRST PAGE</a><br>
     <a href="latest/#comic-page">LATEST PAGE</a></p>
