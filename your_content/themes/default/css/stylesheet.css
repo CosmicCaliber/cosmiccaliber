@@ -97,23 +97,26 @@ div#storyline, div#characters, div#tags {
     font-style: italic;  /* Delete this to unitalicize the tags */
 }
 
-/*Floating Back-To-Top Button*/
-    #myBtn {
-        position: sticky;
-        bottom: 10px;
-        float: right;
-        right: 18.5%;
-        left: 77.25%;
-        max-width: 30px;
-        width: 100%;
-        font-size: 12px;
-        border-color: rgba(85, 85, 85, 0.2);
-        background-color: rgb(100,100,100);
-        padding: .5px;
-        border-radius: 4px;
-
-    }
-/*On Hover Color Change*/
-    #myBtn:hover {
-        background-color: #7dbbf1;
-    }
+.scroll-up-btn {
+	all: unset;
+	position: fixed;
+	bottom: 25px;
+	right: 30px;
+	height: 90px;
+	width: 90px;
+	background-color: purple;
+	border-radius: 99%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.scroll-up-btn .arrow-up {
+	width: 28px;
+	height: 28px;
+	border-left: 4px solid white;
+	border-bottom: 4px solid white;
+	transform: rotate(135deg);
+	margin-bottom: -14px;
+	pointer-events: none;
+}

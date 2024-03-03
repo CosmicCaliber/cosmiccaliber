@@ -5,8 +5,11 @@
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {% block content %}
 <div id="container">
-<button id="myBtn"><a href="#top" style="color: white">TOP</a></button>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<body
+	<button class="scroll-up-btn">
+		<i class="arrow-up"></i>
+		</button>
 	<div id="jump-to">
         {%- if storylines.keys() | list != ["Uncategorized"] %}
         <h2>Jump to...</h2>
