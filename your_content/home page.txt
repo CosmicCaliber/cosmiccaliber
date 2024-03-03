@@ -12,8 +12,8 @@
 
 <p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:60%;" /></strong></em></span></p>
 
-<a href="comic/1/#comic-page" target="_blank"><img alt="First" src="test"><img src="your_content\images\navigation_icons\Icon_First.png" ></a>
-<a href="latest/#comic-page" target="_blank"><img alt="Latest" src="test"><img src="your_content\images\navigation_icons\Icon_Latest.png" ></a>
+<a href="comic/1/#comic-page" target="_blank"><img src="your_content\images\navigation_icons\Icon_First.png" ></a>
+<a href="latest/#comic-page" target="_blank"><img src="your_content\images\navigation_icons\Icon_Latest.png" ></a>
 
 
 
