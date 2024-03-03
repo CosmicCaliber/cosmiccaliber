@@ -3,7 +3,11 @@
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<div id="shadowBox">
+
 <h3 class="rainbow"><span style="font-size:35px">Welcome To Cosmic Caliber</h3>
+
+<div>
 
 <p style="text-align:center"><span style="font-size:27px">Note Cosmic Caliber is currently under construction!</p>
 
@@ -38,6 +42,8 @@
 <p style="text-align:center"><span style="font-size:22px"><em><strong>List of </strong></em><span style="color:hsl(30, 75%, 60%)"><em><strong>patrons</strong></em></span></span></p>
 
 <p><span style="font-size:20px"><em>Corvid_Conquest</em></span></p>
+
+<div>
 
 
 
