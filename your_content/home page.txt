@@ -1,6 +1,6 @@
 <head>
 <div id="container">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.5">
 </head>
 
 <h1 style="text-align:center"><span style="font-size:30px">Welcome to Cosmic Caliber Homepage</h1>
@@ -11,7 +11,7 @@
 <p style="text-align:center"><span style="font-size:27px">Check out my socials to keep up to date!!</p>
 
 <p style="text-align:center"><span style="font-size:23x"><em><strong>Cosmic Caliber is intended for a mature audience. Following suggestive themes and violence and gore.&nbsp;&nbsp;</strong></em></span></p>
-<p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:50%;" /></strong></em></span></p>
+<p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:60%;" /></strong></em></span></p>
 
 <hr />
 <p style="text-align:center"><span style="font-size:27px">Cosmic Caliber is a webcomic about a crew of magic-wielding space pirates</span></p>
@@ -20,7 +20,7 @@
 <p style="text-align:center"><span style="font-size:25px">Follow Kade and his crew as they explore planets and discover new powers.</span></p>
 <p style="text-align:center"><span style="font-size:18px"><strong>Thank you to the </strong><span style="color:hsl(30, 75%, 60%)"><strong>Patreon&#39;s</strong></span><strong> who have supported 10$ or more monthly!!</strong></span></p>
 
-<a href="https://www.patreon.com/BadAspen" target="_blank"><img alt="Patreon Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Patreon_logo.svg/800px-Patreon_logo.svg.png" style="height:50px; width:50px"
+<a href="https://www.patreon.com/BadAspen" target="_blank"><img alt="Patreon Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Patreon_logo.svg/800px-Patreon_logo.svg.png" style="height:50px; width:50px">
 
 <p>&nbsp;</p>
 

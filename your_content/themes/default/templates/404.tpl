@@ -1,3 +1,5 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 {# This template extends the base.tpl template, meaning that base.tpl provides a large framework
    that this template then adds to. See base.tpl for more information. #}
 {% extends "base.tpl" %}
