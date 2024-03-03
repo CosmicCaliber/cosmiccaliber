@@ -46,6 +46,7 @@
     load_page("{{ comic_base_dir }}", "{{ content_base_dir }}");
 </script>
 
-<button id="myBtn"><a href="#top" style="color: white">Top</a></button>
+<button id="myBtn"><a href="#top" style="color: white">TOP</a></button>
+
 </div>
 {% endblock %}
