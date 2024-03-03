@@ -10,6 +10,11 @@
 <p style="text-align:center"><span style="font-size:27px">This webcomic is made by BadAspen. If you are seeing this text you are early</p>
 <p style="text-align:center"><span style="font-size:27px">Check out my socials to keep up to date!!</p>
 
+
+<a href="comic/1/#comic-page" target="_blank"><img src="your_content\images\navigation_icons\Icon_First.png" ></a>
+<a href="latest/#comic-page" target="_blank"><img src="your_content\images\navigation_icons\Icon_Latest.png" ></a>
+
+
 <p style="text-align:center"><span style="font-size:23px"><em><strong><img alt="" src="test" /><img src="your_content/images/Cover.png" style="width:60%;" /></strong></em></span></p>
 
 <a href="comic/1/#comic-page" target="_blank"><img src="your_content\images\navigation_icons\Icon_First.png" ></a>
