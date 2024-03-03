@@ -3,11 +3,8 @@
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div id="shadowBox">
 
 <h3 class="rainbow"><span style="font-size:35px">Welcome To Cosmic Caliber</h3>
-
-</div>
 
 <p style="text-align:center"><span style="font-size:27px">Note: This website is currently under construction!</p>
 
