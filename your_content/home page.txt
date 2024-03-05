@@ -12,9 +12,7 @@
 <p style="text-align:center"><span style="font-size:27px">Check out my socials to keep up to date!!</p>
 
 
-<a class="responsive-img" href="comic/1/#comic-page" target="_blank">
-    <img src="your_content\images\navigation_icons\Icon_First.png" alt="First Comic">
-</a>
+<a class="responsive-img" href="comic/1/#comic-page" target="_blank"><img src="your_content\images\navigation_icons\Icon_First.png" ></a>
 <a href="latest/#comic-page" target="_blank"><img src="your_content\images\navigation_icons\Icon_Latest.png" ></a>
 
 

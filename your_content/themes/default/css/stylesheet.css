@@ -121,19 +121,3 @@ div#storyline, div#characters, div#tags {
 	pointer-events: none;
 }
 
-/* Default styles */
-.responsive-img img {
-    max-width: 100%; /* Ensures image doesn't exceed its container's width */
-    height: auto; /* Maintains aspect ratio */
-}
-
-/* Media query for mobile devices */
-@media screen and (max-width: 768px) {
-    .responsive-img img {
-        max-width: 80%; /* Adjust the width as needed for smaller screens */
-    }
-}
-    .responsive-img {
-        max-width: 80%; /* Adjust the width as needed for smaller screens */
-    }
-}
