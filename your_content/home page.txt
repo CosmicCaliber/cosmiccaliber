@@ -4,11 +4,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<h3 class="rainbow"><span style="font-size:35px">Welcome To Cosmic Caliber</h3>
+<h3 class="rainbow"><span style="font-size:35px">Welcome To Cosmic Caliber!</h3>
 
-<p style="text-align:center"><span style="font-size:27px">Note: This website is currently under construction!</p>
+<p style="text-align:center"><span style="font-size:27px">Note: This website is still being tweaked.</p>
 
-<p style="text-align:center"><span style="font-size:27px">This webcomic is made by BadAspen. If you are seeing this text you are early</p>
+<p style="text-align:center"><span style="font-size:27px">Cosmic Caliber is a webcomic is made by BadAspen.</p>
 <p style="text-align:center"><span style="font-size:27px">Check out my socials to keep up to date!!</p>
 
 
