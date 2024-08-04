@@ -144,7 +144,7 @@ div#storyline, div#characters, div#tags {
     }
 
     .desktop-nav {
-        display: none;
+        display: none; /* Ensure the desktop-nav is hidden by default */
         flex-direction: column;
     }
 
