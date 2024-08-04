@@ -95,6 +95,8 @@
         <a class="link-bar-link" href="{{ link.url }}">{{ link.name }}</a>
         {% if not loop.last %}<span class="link-bar-separator">|</span>{% endif %}
         {%- endfor %}
+
+        <script src="script.js"></script>
     </div>
 	
 	</div id="container">
