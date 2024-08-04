@@ -51,6 +51,7 @@ div#links-bar.desktop-nav {
     background: linear-gradient(to bottom, #9654cd, #8a40c7);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 50%;
 }
 
 a.link-bar-link {
@@ -132,7 +133,7 @@ div#storyline, div#characters, div#tags {
     #mobile-menu-button {
         display: none;
         grid-area: comiclinks;
-        width: 100%;
+        width: 50%;
         background: linear-gradient(to bottom, #9654cd, #8a40c7);
         text-align: center;
         padding: 1px;
