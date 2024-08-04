@@ -129,6 +129,8 @@ div#storyline, div#characters, div#tags {
     font-size: 30px;
     cursor: pointer;
     color: white;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
 }
 
 /* Styles for mobile view */
@@ -142,6 +144,7 @@ div#storyline, div#characters, div#tags {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         width: 100%;
         padding: 5px;
+        
     }
 
     .desktop-nav {
