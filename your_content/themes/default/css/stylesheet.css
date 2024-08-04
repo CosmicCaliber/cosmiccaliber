@@ -34,6 +34,10 @@ div#container {
     #container {
         min-width: 100%; /* Set the minimum width to 100% on smaller screens */
     }
+    #banner {
+        min-width: 100%; /* Set the minimum width to 100% on smaller screens */
+    }
+    
 }
 
 div#banner {
