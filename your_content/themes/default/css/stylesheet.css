@@ -142,3 +142,21 @@ div#storyline, div#characters, div#tags {
         text-shadow: 0 0 3px #F35E36;
         text-decoration: none;
     }
+
+#mobile-menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#mobile-menu {
+    display: none;
+    grid-template-areas:
+            "navigation"
+            "social";
+    width: 100%;
+}
+
+#mobile-menu.open {
+}
