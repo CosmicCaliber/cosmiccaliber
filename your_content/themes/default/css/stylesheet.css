@@ -6,11 +6,11 @@ unless you know what you're doing, or you're willing to spend a lot of time on t
 For any colors, you can represent them in hexadecimal like this (#FF0000 = red)
 or use this list of available color names: https://www.w3schools.com/cssref/css_colors.asp
  */
- 
+
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
 body {
-	font-family: "Agdasima", sans-serif;  /* The font of all the text on all pages */
+    font-family: "Agdasima", sans-serif;  /* The font of all the text on all pages */
     color: black;  /* The color of the font of most of the text on your website */
     background-color: white;  /* The color of the background behind everything */
     background-image: url("../../../images/background_image.png");  /* The pattern on the background. Delete to change to a solid color
@@ -23,27 +23,27 @@ a {
 
 div#container {
     min-width: 300px; /* Set the minimum width of the container to 1000 pixels */
-	max-width: 1500px; /* Set the maximum width of the container to 1500 pixels */
-	margin: 0 auto;
-	background-color: rgba(255, 255, 255, 0.8);
-	box-shadow: 5px 5px 10px lightgray;
-	border: 2px white; /* Ads border */
+    max-width: 1500px; /* Set the maximum width of the container to 1500 pixels */
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 5px 10px lightgray;
+    border: 2px white; /* Adds border */
 }
 
 @media (max-width: 600px) {
-  #container {
-    min-width: 100%; /* Set the minimum width to 100% on smaller screens */
-  }
+    #container {
+        min-width: 100%; /* Set the minimum width to 100% on smaller screens */
+    }
 }
 
 div#banner {
     background-color: transparent;
     padding: 10px;
-	display: flex;
-	justify-content: center; /* Horizontally center the content */
-	align-items: center; /* Vertically center the content */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
 }
-  
+
 div#links-bar.desktop-nav {
     display: flex;
     justify-content: center;
@@ -99,27 +99,28 @@ div#storyline, div#characters, div#tags {
 }
 
 .scroll-up-btn {
-	all: unset;
-	position: fixed;
-	bottom: 25px;
-	right: 30px;
-	height: 90px;
-	width: 90px;
-	background-color: #af47df;
-	border-radius: 50%; /* Using 50% for circle */
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
+    all: unset;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    height: 90px;
+    width: 90px;
+    background-color: #af47df;
+    border-radius: 50%; /* Using 50% for circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
+
 .scroll-up-btn .arrow-up {
-	width: 28px;
-	height: 28px;
-	border-left: 4px solid white;
-	border-bottom: 4px solid white;
-	transform: rotate(135deg);
-	margin-bottom: -14px;
-	pointer-events: none;
+    width: 28px;
+    height: 28px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    transform: rotate(135deg);
+    margin-bottom: -14px;
+    pointer-events: none;
 }
 
 /* Hide the hamburger menu and display desktop navigation by default */

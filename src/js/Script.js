@@ -9,19 +9,5 @@ document.addEventListener('DOMContentLoaded', function() {
             linksBar.style.display = 'block';
         }
     });
-
-    // Function to handle display based on screen size
-    function handleResize() {
-        if (window.innerWidth > 768) {
-            linksBar.style.display = 'block';
-        } else {
-            linksBar.style.display = 'none';
-        }
-    }
-
-    // Initial check
-    handleResize();
-
-    // Add event listener for window resize
-    window.addEventListener('resize', handleResize);
 });
+
