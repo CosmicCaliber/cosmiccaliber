@@ -141,7 +141,7 @@ div#storyline, div#characters, div#tags {
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         width: 100%;
-        padding: 10px;
+        padding: 5px;
     }
 
     .desktop-nav {
