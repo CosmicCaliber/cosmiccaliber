@@ -127,6 +127,7 @@ div#storyline, div#characters, div#tags {
         "comiclinks"
         "social"
         "navigation";
+}
 
     #mobile-menu-button {
         display: none;
@@ -136,7 +137,7 @@ div#storyline, div#characters, div#tags {
         text-align: center;
         padding: 1px;
         height: 48px;
-        font-family: 'Underdog', cursive;
+        font-family: 'Agdasima', cursive;
         color: #f5debd;
         text-shadow: 0 0 3px #F35E36;
         text-decoration: none;
