@@ -50,6 +50,33 @@
     </a>
 	</div>
 
+</div>
+<div id="mobile-menu-button"><h3>Menu</h3></div>
+<div id="mobile-menu">
+    <div id="ComicLinks">
+        <div id="FirstComic">
+            <a href="/{{ base_dir }}/comic/{{ first_id }}/#comic-page">Page 1</a>
+        </div>
+        <div id="LatestComic" style="background-image:url('/{{ base_dir }}/your_content/comics/{{ last_id }}/Page_{{last_id}}_small.png');">
+            <a href="/{{ base_dir }}/latest/#comic-page">Page {{ last_id }}</a>
+        </div>
+        <div id="FirstComicFrame"><h2>Start Here</h2></div>
+        <div id="Flourish"></div>
+        <div id="LatestComicFrame"><h2>Latest Page</h2></div>
+    </div>
+    <ul class="social-links">
+        <li><span>&#9753;</span></li>
+        <li><a href="https://www.webtoons.com/en/challenge/tamberlane/list?title_no=372674" title="Read Tamberlane on Webtoon"><i class="icon-webtoon"><span style="color: #663403;" class="Label">&nbsp;Webtoons</span></i></a></li>
+        <li><a href="http://www.twitter.com/tamberlanecomic" title="Get Updates on Twitter"><i class="icon-twitter"><span style="color: #663403;" class="Label">&nbsp;Twitter</span></i></a></li>
+        <li><a href="https://www.facebook.com/groups/209745269853069/" title="Get Updates on Facebook"><i class="icon-facebook"><span style="color: #663403;" class="Label">&nbsp;Facebook</span></i></a></li>
+        <li><a href="http://tamberlanecomic.tumblr.com/" title="Get Updates on Tumblr"><i class="icon-tumblr"><span style="color: #663403;" class="Label">&nbsp;Tumblr</span></i></a></li>
+        <li><a href="http://www.twitch.tv/tamberlanecomic" title="Watch Comic Livestreams on Twitch"><i class="icon-twitch"><span style="color: #663403;" class="Label">&nbsp;Twitch</span></i></a></li>
+        <li><a href="http://www.youtube.com/c/pixelprism" title="Watch Speeddraws on YouTube"><i class="icon-youtube-play"><span style="color: #663403;" class="Label">&nbsp;YouTube</span></i></a></li>
+        <li><a type="application/rss+xml" href="/{{ base_dir }}/feed.xml"><i class="icon-rss" title="Subscribe on RSS"><span style="color: #663403;" class="Label">&nbsp;RSS</span></i></a></li>
+        <li><a href="/{{ base_dir }}/subscribe/" title="Subscribe via Email"><i class="icon-envelope"><span style="color: #663403;" class="Label">&nbsp;Subscribe</span></i></a></li>
+        <li><span>&#10087;</span></li>
+    </ul>
+
     <div id="links-bar" class="desktop-nav">
         {# For loops let you take a list of a values and do something for each of those values. In this case,
         it runs through the list of all the links provided by the [Links Bar] section of your comic_info.ini file,

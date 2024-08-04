@@ -121,3 +121,23 @@ div#storyline, div#characters, div#tags {
 	pointer-events: none;
 }
 
+#mobile-menu {
+    display: grid;
+    grid-template-areas:
+        "comiclinks"
+        "social"
+        "navigation";
+
+    #mobile-menu-button {
+        display: none;
+        grid-area: comiclinks;
+        width: 100%;
+        background-color: #341A09;
+        text-align: center;
+        padding: 1px;
+        height: 48px;
+        font-family: 'Underdog', cursive;
+        color: #f5debd;
+        text-shadow: 0 0 3px #F35E36;
+        text-decoration: none;
+    }
