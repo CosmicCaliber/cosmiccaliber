@@ -136,7 +136,13 @@ div#storyline, div#characters, div#tags {
 /* Styles for mobile view */
 @media (max-width: 768px) {
     .hamburger {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #9654cd, #8a40c7);
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        width: 100%;
     }
 
     .desktop-nav {
