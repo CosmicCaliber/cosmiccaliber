@@ -42,7 +42,7 @@ in this template, before they're used to create HTML files. #}
 
 <!-- Hamburger Menu for Mobile -->
 <div id="hamburger-menu" class="hamburger">
-    &#9776; Menu
+    Menu
 </div>
 
 <div id="links-bar" class="desktop-nav">
