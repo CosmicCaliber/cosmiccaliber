@@ -30,6 +30,16 @@ div#container {
     border: 2px white; /* Adds border */
 }
 
+@media (max-width: 768px) {
+    #container {
+        min-width: 100%; /* Set the minimum width to 100% on smaller screens */
+    }
+    #banner {
+        min-width: 100%; /* Set the minimum width to 100% on smaller screens */
+    }
+
+}
+
 div#banner {
     background-color: transparent;
     padding: 10px;
