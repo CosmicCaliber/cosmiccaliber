@@ -61,7 +61,7 @@
 <body>
 
 <div id="hamburger-menu" class="hamburger">
-    MENU;
+    Menu
     <script src="script.js"></script>
 </div>
 
@@ -78,15 +78,17 @@
     </div>
 	
 	</div id="container">
-    {# This is the start of the `content` block. Nothing is here now because other templates are expected to fill it
+        {# This is the start of the `content` block. Nothing is here now because other templates are expected to fill it
        in on their own. It will contain everything on a webpage after the links bar and before the
        "Powered by comic_git" footer. #}
-    {% block content %}{% endblock %}
+     {% block content %}{% endblock %}
+    </div>
 
     <div id="powered-by">
 		<p style="text-align:center"><a href="https://www.patreon.com/BadAspen" target="_blank"><img alt="Patreon Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Patreon_logo.svg/800px-Patreon_logo.svg.png" style="height:35px; width:35px" /></a>&nbsp;&nbsp;<a href="https://twitter.com/BadAspen" target="_blank"><img alt="Twitter Logo " src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" style="height:33px; width:40px" /></a>&nbsp;&nbsp;<a href="https://discord.gg/Bh3uxTak5A"><img alt="Discord Logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" style="height:30px; width:40px" /></a></p>
         Cosmic Caliber is Powered by <a id="powered-by-link" href="https://ryanvilbrandt.github.io/comic_git">comic_git</a> v{{ version }} © BadAspen | LunarFarms 2022 - Present.</p>
     </div>
+
 </div>
 {% endblock %}
 </body>
