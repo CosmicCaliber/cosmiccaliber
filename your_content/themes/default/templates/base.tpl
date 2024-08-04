@@ -62,9 +62,9 @@
 
 <div id="hamburger-menu" class="hamburger">
     &#9776;
+    <script src="script.js"></script>
 </div>
 
-<script src="script.js"></script>
 </body>
 
     <div id="links-bar" class="desktop-nav">
