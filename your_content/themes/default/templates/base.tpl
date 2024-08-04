@@ -61,7 +61,7 @@
 <body>
 
 <div id="hamburger-menu" class="hamburger">
-    &#9776;
+    MENU;
     <script src="script.js"></script>
 </div>
 

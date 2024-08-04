@@ -7,7 +7,7 @@ For any colors, you can represent them in hexadecimal like this (#FF0000 = red)
 or use this list of available color names: https://www.w3schools.com/cssref/css_colors.asp
  */
  
-	@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
 body {
 	font-family: "Agdasima", sans-serif;  /* The font of all the text on all pages */
@@ -127,6 +127,7 @@ div#storyline, div#characters, div#tags {
     display: none;
     font-size: 30px;
     cursor: pointer;
+    color: white;
 }
 
 /* Styles for mobile view */
