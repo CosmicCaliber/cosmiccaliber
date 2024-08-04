@@ -76,6 +76,18 @@
         <li><a href="/{{ base_dir }}/subscribe/" title="Subscribe via Email"><i class="icon-envelope"><span style="color: #663403;" class="Label">&nbsp;Subscribe</span></i></a></li>
         <li><span>&#10087;</span></li>
     </ul>
+    <ul class="links-menu">
+        <li><a href="comic/{{ first_id }}/#comic-page">First Comic</a></li>
+        <li><a href="/{{ base_dir }}/latest/">Latest Comic</a></li>
+        <li><a href="/{{ base_dir }}/archive/">Archive</a></li>
+        <li><a href="/{{ base_dir }}/about/">About</a></li>
+        <li><a href="/{{ base_dir }}/cast/">Cast</a></li>
+        <li><a href="https://forum.tamberlanecomic.com">Forum</a></li>
+        <li><a href="https://shop.tamberlanecomic.com">Shop</a></li>
+        <li><a href="http://www.patreon.com/tamberlane">Patreon</a></li>
+        <li class="liveStream"><a href="http://www.twitch.tv/tamberlanecomic"><i class="icon-twitch"></i>&nbsp;Now Live</a></li>
+    </ul>
+</div>
 
     <div id="links-bar" class="desktop-nav">
         {# For loops let you take a list of a values and do something for each of those values. In this case,
