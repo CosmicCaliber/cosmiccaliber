@@ -139,7 +139,6 @@ div#storyline, div#characters, div#tags {
         height: 48px;
         font-family: 'Agdasima', cursive;
         color: #ffffff;
-        text-shadow: 0 0 3px #050505;
         text-decoration: none;
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
