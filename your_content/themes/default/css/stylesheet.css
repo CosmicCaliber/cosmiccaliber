@@ -133,7 +133,7 @@ div#storyline, div#characters, div#tags {
         display: none;
         grid-area: comiclinks;
         width: 100%;
-        background-color: #341A09;
+        background: linear-gradient(to bottom, #9654cd, #8a40c7);
         text-align: center;
         padding: 1px;
         height: 48px;
