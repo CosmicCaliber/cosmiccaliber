@@ -25,4 +25,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add event listener for window resize
     window.addEventListener('resize', handleResize);
 });
-
