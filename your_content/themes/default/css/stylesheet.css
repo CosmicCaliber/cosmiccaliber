@@ -122,43 +122,35 @@ div#storyline, div#characters, div#tags {
 	pointer-events: none;
 }
 
-#mobile-menu {
-    display: grid;
-    grid-template-areas:
-        "comiclinks"
-        "social"
-        "navigation";
+.accordion {
+    display: none; /* Hide by default, will be shown via JavaScript for mobile */
+    flex-direction: column;
 }
 
-    #mobile-menu-button {
-        display: none;
-        grid-area: comiclinks;
-        width: 100%;
-        background: linear-gradient(to bottom, #9654cd, #8a40c7);
-        text-align: center;
-        padding: 1px;
-        height: 48px;
-        font-family: 'Agdasima', cursive;
-        color: #ffffff;
-        text-decoration: none;
-        border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    }
-
-#mobile-menu-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.accordion-button {
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    text-align: left;
     cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    transition: background-color 0.4s;
 }
 
-#mobile-menu {
+.accordion-button:hover {
+    background-color: #ccc;
+}
+
+.accordion-content {
+    padding: 0 18px;
     display: none;
-    grid-template-areas:
-            "navigation"
-            "social";
-    width: 100%;
+    overflow: hidden;
+    background-color: white;
 }
 
-#mobile-menu.open {
+@media (max-width: 768px) {
+    .accordion {
+        display: flex; /* Display for mobile devices */
+    }
 }

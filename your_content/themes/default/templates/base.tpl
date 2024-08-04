@@ -51,43 +51,41 @@
 	</div>
 
 </div>
-<div id="mobile-menu-button"><h3>Menu</h3></div>
-<div id="mobile-menu">
-    <div id="ComicLinks">
-        <div id="FirstComic">
-            <a href="/{{ base_dir }}/comic/{{ first_id }}/#comic-page">Page 1</a>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="advancedstylesheet.css">
+    <title>Accordion Menu</title>
+</head>
+<body>
+
+<div class="accordion">
+    <div class="accordion-item">
+        <button class="accordion-button">Section 1</button>
+        <div class="accordion-content">
+            <p>Content for section 1.</p>
         </div>
-        <div id="LatestComic" style="background-image:url('/{{ base_dir }}/your_content/comics/{{ last_id }}/Page_{{last_id}}_small.png');">
-            <a href="/{{ base_dir }}/latest/#comic-page">Page {{ last_id }}</a>
-        </div>
-        <div id="FirstComicFrame"><h2>Start Here</h2></div>
-        <div id="Flourish"></div>
-        <div id="LatestComicFrame"><h2>Latest Page</h2></div>
     </div>
-    <ul class="social-links">
-        <li><span>&#9753;</span></li>
-        <li><a href="https://www.webtoons.com/en/challenge/tamberlane/list?title_no=372674" title="Read Tamberlane on Webtoon"><i class="icon-webtoon"><span style="color: #663403;" class="Label">&nbsp;Webtoons</span></i></a></li>
-        <li><a href="http://www.twitter.com/tamberlanecomic" title="Get Updates on Twitter"><i class="icon-twitter"><span style="color: #663403;" class="Label">&nbsp;Twitter</span></i></a></li>
-        <li><a href="https://www.facebook.com/groups/209745269853069/" title="Get Updates on Facebook"><i class="icon-facebook"><span style="color: #663403;" class="Label">&nbsp;Facebook</span></i></a></li>
-        <li><a href="http://tamberlanecomic.tumblr.com/" title="Get Updates on Tumblr"><i class="icon-tumblr"><span style="color: #663403;" class="Label">&nbsp;Tumblr</span></i></a></li>
-        <li><a href="http://www.twitch.tv/tamberlanecomic" title="Watch Comic Livestreams on Twitch"><i class="icon-twitch"><span style="color: #663403;" class="Label">&nbsp;Twitch</span></i></a></li>
-        <li><a href="http://www.youtube.com/c/pixelprism" title="Watch Speeddraws on YouTube"><i class="icon-youtube-play"><span style="color: #663403;" class="Label">&nbsp;YouTube</span></i></a></li>
-        <li><a type="application/rss+xml" href="/{{ base_dir }}/feed.xml"><i class="icon-rss" title="Subscribe on RSS"><span style="color: #663403;" class="Label">&nbsp;RSS</span></i></a></li>
-        <li><a href="/{{ base_dir }}/subscribe/" title="Subscribe via Email"><i class="icon-envelope"><span style="color: #663403;" class="Label">&nbsp;Subscribe</span></i></a></li>
-        <li><span>&#10087;</span></li>
-    </ul>
-    <ul class="links-menu">
-        <li><a href="comic/{{ first_id }}/#comic-page">First Comic</a></li>
-        <li><a href="/{{ base_dir }}/latest/">Latest Comic</a></li>
-        <li><a href="/{{ base_dir }}/archive/">Archive</a></li>
-        <li><a href="/{{ base_dir }}/about/">About</a></li>
-        <li><a href="/{{ base_dir }}/cast/">Cast</a></li>
-        <li><a href="https://forum.tamberlanecomic.com">Forum</a></li>
-        <li><a href="https://shop.tamberlanecomic.com">Shop</a></li>
-        <li><a href="http://www.patreon.com/tamberlane">Patreon</a></li>
-        <li class="liveStream"><a href="http://www.twitch.tv/tamberlanecomic"><i class="icon-twitch"></i>&nbsp;Now Live</a></li>
-    </ul>
+    <div class="accordion-item">
+        <button class="accordion-button">Section 2</button>
+        <div class="accordion-content">
+            <p>Content for section 2.</p>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-button">Section 3</button>
+        <div class="accordion-content">
+            <p>Content for section 3.</p>
+        </div>
+    </div>
 </div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
     <div id="links-bar" class="desktop-nav">
         {# For loops let you take a list of a values and do something for each of those values. In this case,
