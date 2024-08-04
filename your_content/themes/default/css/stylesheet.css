@@ -128,12 +128,13 @@ div#storyline, div#characters, div#tags {
 }
 
 .accordion-button {
-    background-color: #f1f1f1;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #9654cd, #8a40c7);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
     font-size: 18px;
     transition: background-color 0.4s;
 }
