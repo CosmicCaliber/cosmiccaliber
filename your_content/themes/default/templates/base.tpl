@@ -50,42 +50,31 @@
     </a>
 	</div>
 
-</div>
-
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="advancedstylesheet.css">
-    <title>Accordion Menu</title>
+    <title>Hamburger Menu</title>
 </head>
 <body>
 
-<div class="accordion">
-    <div class="accordion-item">
-        <button class="accordion-button">Section 1</button>
-        <div class="accordion-content">
-            <p>Content for section 1.</p>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <button class="accordion-button">Section 2</button>
-        <div class="accordion-content">
-            <p>Content for section 2.</p>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <button class="accordion-button">Section 3</button>
-        <div class="accordion-content">
-            <p>Content for section 3.</p>
-        </div>
-    </div>
+<div id="hamburger-menu" class="hamburger">
+    &#9776;
+</div>
+
+<div id="links-bar" class="desktop-nav">
+    {# For loops let you take a list of values and do something for each of those values. In this case,
+    it runs through the list of all the links provided by the [Links Bar] section of your comic_info.ini file,
+    and it generates a link for each of them. #}
+    {%- for link in links %}
+    <a class="link-bar-link" href="{{ link.url }}">{{ link.name }}</a>
+    {% if not loop.last %}<span class="link-bar-separator">|</span>{% endif %}
+    {%- endfor %}
 </div>
 
 <script src="script.js"></script>
 </body>
-</html>
 
     <div id="links-bar" class="desktop-nav">
         {# For loops let you take a list of a values and do something for each of those values. In this case,
@@ -95,8 +84,6 @@
         <a class="link-bar-link" href="{{ link.url }}">{{ link.name }}</a>
         {% if not loop.last %}<span class="link-bar-separator">|</span>{% endif %}
         {%- endfor %}
-
-        <script src="script.js"></script>
     </div>
 	
 	</div id="container">

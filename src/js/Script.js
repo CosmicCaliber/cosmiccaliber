@@ -1,30 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var acc = document.getElementsByClassName("accordion-button");
-    var i;
+    var hamburgerMenu = document.getElementById('hamburger-menu');
+    var linksBar = document.getElementById('links-bar');
 
-    // Toggle accordion content
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-                panel.style.display = "none";
-            } else {
-                panel.style.display = "block";
-            }
-        });
-    }
+    hamburgerMenu.addEventListener('click', function() {
+        if (linksBar.style.display === 'block') {
+            linksBar.style.display = 'none';
+        } else {
+            linksBar.style.display = 'block';
+        }
+    });
 
     // Function to handle display based on screen size
     function handleResize() {
-        var desktopNav = document.getElementById('links-bar');
-        var accordion = document.querySelector('.accordion');
-        if (window.innerWidth <= 768) {
-            desktopNav.style.display = 'none';
-            accordion.style.display = 'flex';
+        if (window.innerWidth > 768) {
+            linksBar.style.display = 'block';
         } else {
-            desktopNav.style.display = 'block';
-            accordion.style.display = 'none';
+            linksBar.style.display = 'none';
         }
     }
 

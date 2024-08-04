@@ -51,7 +51,7 @@ div#links-bar.desktop-nav {
     background: linear-gradient(to bottom, #9654cd, #8a40c7);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    width: 100%;
+    width: 50%;
 }
 
 a.link-bar-link {
@@ -122,46 +122,30 @@ div#storyline, div#characters, div#tags {
 	pointer-events: none;
 }
 
-.accordion {
-    display: none; /* Hide by default, will be shown via JavaScript for mobile */
-    flex-direction: column;
-}
-
-.accordion-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, #9654cd, #8a40c7);
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    width: 100%;
-    font-size: 18px;
-    transition: background-color 0.4s;
-}
-
-.accordion-button:hover {
-    background-color: #ccc;
-}
-
-.accordion-content {
-    padding: 0 18px;
+/* Hide the hamburger menu and display desktop navigation by default */
+.hamburger {
     display: none;
-    overflow: hidden;
-    background-color: white;
-}
-
-@media (max-width: 768px) {
-    .accordion {
-        display: flex; /* Display for mobile devices */
-    }
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .desktop-nav {
     display: block;
 }
 
+/* Styles for mobile view */
 @media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
     .desktop-nav {
         display: none;
+        flex-direction: column;
+    }
+
+    .desktop-nav a {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
     }
 }
