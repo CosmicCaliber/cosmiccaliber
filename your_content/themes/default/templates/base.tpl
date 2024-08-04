@@ -40,6 +40,7 @@
     <title>{{ page_title }} - {{ comic_title }}</title>
     {%- endblock %}
 </head>
+
 <body>
 {# This is the start of the `body` block. This is where all the visible parts of the website show up. #}
 {% block body %}
